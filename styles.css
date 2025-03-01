@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+/* Index.html */
+.main-title{
+    color:whitesmoke;
+    text-align: center;
+    border: 3px teal solid;
+    background-color:black;
+}
+li {
+    list-style:square;
+    padding: 1rem;
+    margin:1rem;
+    border: 1px solid teal;
+}
+
+li > a {
+    color: teal;
+}
+
+
+
+/* Index.html END */
