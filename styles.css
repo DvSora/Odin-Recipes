@@ -1,25 +1,78 @@
 body {
     margin: 0;
+    background-color:chocolate
+}
+/* Hero */
+.hero{
+    background-color: brown;
+    
 }
 
+
+/* excerpt */
+.excerpt{
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0;
+    font-style: italic;
+    color: whitesmoke;
+}
 /* Index.html */
 .main-title{
+    margin-top: 0;
     color:whitesmoke;
     text-align: center;
     border: 3px teal solid;
     background-color:black;
 }
-li {
+.main-list > * {
     list-style:square;
     padding: 1rem;
     margin:1rem;
     border: 1px solid teal;
 }
 
-li > a {
+.main-list > li > a {
     color: teal;
+}
+
+img {
+    margin-left: 17rem;
+    max-width: 300px;
+    border: 3px solid teal;
+}
+
+/* Index.html END */
+
+/* Recipe Container */
+.recipe-container {
+    border: black 1px solid;
+    margin-left: 5rem;
+    margin-right: 5rem
 }
 
 
 
-/* Index.html END */
+.footer {
+    text-align:center;
+    border: black 1px solid;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+.footer > p {
+    margin:0;
+    padding-top:1rem;
+}
+
+.footer > a {
+    padding-bottom: 1rem;
+}
+
+.space {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
