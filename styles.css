@@ -11,15 +11,15 @@ body {
 
 /* excerpt */
 .excerpt{
-    display: flex;
     font-size: 18px;
     text-align: center;
     margin-bottom: 0;
     font-style: italic;
     color: whitesmoke;
 }
-/* Index.html */
-.main-title{
+
+
+.main-title {
     margin-top: 0;
     color:whitesmoke;
     text-align: center;
@@ -27,19 +27,35 @@ body {
     background-color:black;
 }
 .main-list > * {
+list-style:square;
+padding: 1rem;
+margin:1rem;
+border: 2px solid black;
+background:teal
+}
+/* Index.html */
+.title{
+    margin-top: 0;
+    color:whitesmoke;
+    text-align: center;
+    border: 3px teal solid;
+    background-color:black;
+}
+.list > * {
     list-style:square;
     padding: 1rem;
     margin:1rem;
     border: 1px solid teal;
 }
 
-.main-list > li > a {
+.list > li > a {
     color: teal;
 }
 
 img {
     margin-left: 17rem;
     max-width: 300px;
+    max-height: 300px;
     border: 3px solid teal;
 }
 
@@ -51,9 +67,6 @@ img {
     margin-left: 5rem;
     margin-right: 5rem
 }
-
-
-
 .footer {
     text-align:center;
     border: black 1px solid;
